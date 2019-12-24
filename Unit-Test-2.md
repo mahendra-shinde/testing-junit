@@ -111,7 +111,7 @@
 
     public class BankTest {
     Bank bank = null;
-        @BeforeTest
+        @BeforeMethod
         public void setUp() throws Exception {
             ///PREPEARED THE MOCK DATA
             Account ac1 = new Account("Shankar", "SB102", 2300D);
@@ -122,7 +122,7 @@
             System.out.println("Mock data is ready!");
         }
 
-        @AfterTest
+        @AfterMethod
         public void tearDown() throws Exception {
             bank = null;	//Delete all records
         }
