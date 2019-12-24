@@ -1,0 +1,22 @@
+h1 {
+	color: #0000FF;
+}
+
+h2 {
+	color: #FF0000;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+table, th, td {
+   border: 1px solid black;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
