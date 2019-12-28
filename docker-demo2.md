@@ -3,7 +3,7 @@
 
 1.  Connect to remote system which is running docker
 
-    http://192.168.3.XXX:9090/
+    http://192.168.3.253:9090/
 
     Username: user1
     Password: pass@1234
@@ -54,7 +54,7 @@
 
 6.  Try visiting web page using port printed by last command
 
-    http://192.168.3.XXX:32768
+    http://192.168.3.253:32768
 
 
 7.  Stop and delete YOUR container

@@ -2,7 +2,7 @@
 
 1.  Connect to remote system which is running docker
 
-    http://192.168.3.XXX:9090/
+    http://192.168.3.253:9090/
 
     Username: user1
     Password: pass@1234
@@ -16,7 +16,7 @@
     ```
 
     NOTE: The application (nginx) would now be accessible from 
-    http://192.168.3.XXX:8080
+    http://192.168.3.253:8080
 
 3.  Try ENTERING inside the running container for debugging.
 
@@ -30,7 +30,7 @@
 
 4.  Make changes and save the file.
 
-5.  try revisiting http://192.168.3.XXX:8080 (You should get UPDATED index.html)
+5.  try revisiting http://192.168.3.253:8080 (You should get UPDATED index.html)
 
 6.  Stop and delete the container
 
