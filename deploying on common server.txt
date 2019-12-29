@@ -1,0 +1,13 @@
+mkdir mydemo1334
+cd *.yml mydemo1334
+cd mydemo1334
+vi k8s-deployment.yml
+### change the "name: deploy1" to "name: deplo71334"
+### change the Line#10 & Line#14 "app: web1" to "app:web11334"
+## save and close
+vi service1.yml
+### at Line#4, change the name from "app1-svc" to "app1334-svc"
+### at Line#9, change the selector from "app: web1" to "app:web11334"
+kubectl apply -f .
+
+NOTE: please replace 1334 with some UNIQUE number!!
